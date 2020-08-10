@@ -50,7 +50,7 @@ const Index = () => {
     <div>
       <div className="container p-5 w-25 p-3">
         <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Email address</label>
+          <label htmlFor="exampleInputEmail1">Email</label>
           <input
             name="email"
             placeholder="email"
@@ -59,7 +59,7 @@ const Index = () => {
             className="form-control"
             id="exampleInputEmail1"
           />
-          {validateEmail && <p className="text-danger">check your email</p>}
+          {validateEmail && <p className="text-danger">check email kamu</p>}
         </div>
         <div className="form-group">
           <label htmlFor="exampleInputPassword1">Password</label>
@@ -73,7 +73,7 @@ const Index = () => {
             onChange={(e: any) => setPassword(e.target.value)}
           />
           {validatePassword && (
-            <p className="text-danger">check your password</p>
+            <p className="text-danger">check password kamu</p>
           )}
         </div>
         <div className="text-right mt-4">
@@ -84,7 +84,7 @@ const Index = () => {
             login
           </button>
           <Link to="/register">
-            <p>Don't have an account?</p>
+            <p>Belum punya akun?</p>
           </Link>
         </div>
       </div>

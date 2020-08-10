@@ -52,7 +52,7 @@ const ModalAdd = ({ modalIsOpen, closeModal }: Props) => {
       >
         <form>
           <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Name</label>
+            <label htmlFor="exampleInputEmail1">Nama</label>
             <input
               className="form-control"
               placeholder="Name"
@@ -73,11 +73,11 @@ const ModalAdd = ({ modalIsOpen, closeModal }: Props) => {
             />
           </div>
           <div className="form-group">
-            <label htmlFor="exampleInputPassword1">City</label>
+            <label htmlFor="exampleInputPassword1">Kota</label>
             <input
               className="form-control"
               id="exampleInputPassword1"
-              placeholder="City"
+              placeholder="Kota"
               name={city}
               value={city}
               onChange={(e: any) => setCity(e.target.value)}

@@ -31,9 +31,9 @@ const ListRelawan = (result: RelawanData) => {
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Name</th>
+            <th scope="col">Nama</th>
             <th scope="col">Email</th>
-            <th scope="col">City</th>
+            <th scope="col">Kota</th>
             <th scope="col">Skill</th>
             <th scope="col">Action</th>
           </tr>
